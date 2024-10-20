@@ -1,0 +1,87 @@
+body{
+	background-color:#424242;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+fieldset{
+	width: 400px; 
+	height: 500px; 
+	padding: 20px 20px 30px 20px;
+	margin: 20px auto;
+
+	background-color: black;
+	border-radius: 8px;
+	border-top: 10px solid #C1C1C1;
+	border-right: 10px solid #C1C1C1;
+	border-bottom: 10px solid #C1C1C1;
+	border-left: 10px solid #C1C1C1;
+}
+
+.row{
+	padding:10px; 
+}
+
+.button_digits:hover{
+	background-color: pink;
+}
+
+.buttonmathButtons:hover{
+	background-color: greenyellow
+}
+
+.button_digits{
+	height: 85px; 
+	width: 90px; 
+	border-radius: 25%;
+	font-size: 30px; 
+}
+
+.buttonmathButtons{
+	height: 85px; 
+	width: 90px; 
+	border-radius: 25%;
+	background-color: rgba(255,159,10,255);
+	font-size: 30px; 
+}
+
+#display{
+	height: 60px; 
+	width : 380px;
+	border-radius: 18px;
+	padding-top: 10px;
+	margin-top: 10px;
+	font-size: 55px; 
+	text-align: left; 
+
+}
+
+.buttonmathButton{
+	height: 85px; 
+	width: 90px; 
+	border-radius: 25%;
+	background-color:rgba(255,159,10,255);
+	font-size: 30px; 
+}
+
+.buttonmathButton:hover{
+	background-color: rgb(14, 221, 14);
+}
+
+.buttonmathButtons1{
+	height: 85px; 
+	width: 85px;  
+	border-radius: 25%;
+	background-color: rgba(255,159,10,255);
+	font-size: 30px;
+}
+
+.buttonmathButtons1:hover{
+	background-color:rgb(14, 221, 14);
+}
